@@ -6,7 +6,7 @@
 var args = process.argv;
 var sum = 0;
 for (var i = 2; i < args.length; i++){
-    sum = sum + +args[i];
+    sum = sum + +args[i]; // equals to Number(args[i])
 }
 console.log(sum);
 
